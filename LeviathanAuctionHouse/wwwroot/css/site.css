@@ -1,0 +1,885 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.indigo {
+    color: #8f00ff;
+}
+.green {
+    color: #1dcbbd;
+}
+.wwwroot\font\Prompt-Bold.ttf
+@font-face {
+
+    font-family: 'Prompt-Bold';
+    src: local('Prompt-Bold'), url(../font/Prompt-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Prompt-Medium';
+    src: local('Prompt-Medium'), url(../font/Prompt-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Prompt-Regular';
+    src: local('Prompt-Regular'), url(../font/Prompt-Regular.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Prompt-Medium';
+    src: local('Prompt-Medium'), url(../font/Prompt-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'LeagueGothic-Regular';
+    src: local('LeagueGothic-Regular'), url(../font/LeagueGothic-CondensedRegular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Agrandir-TextBold';
+    src: local('Agrandir-TextBold'), url(../font/Agrandir-TextBold.ttf) format('truetype');
+}
+
+.font-home {
+    font-family: 'LeagueGothic-Regular';
+}
+
+h1 {
+    font-family: 'LeagueGothic-Regular';
+    font-size: 7rem;
+}
+
+.font {
+    font-family: 'LeagueGothic-Regular';
+    font-size: 2rem;
+    line-height: 0.3;
+}
+
+.font-1 {
+    font-family: 'Agrandir-TextBold';
+    font-size: 7rem;
+    line-height: 0.8;
+}
+.font-2 {
+    font-family: 'Agrandir-TextBold';
+;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Prompt-Medium';
+}
+
+.title {
+    font-family: 'Prompt-Regular';
+}
+
+.titleB {
+    font-family: 'Prompt-Bold';
+}
+
+.navbar-toggler-icon {
+    border-bottom: rgb(255, 0, 94);
+}
+
+.bg {
+    background-image: url("https://cms.kerrang.com/images/Bring-Me-The-Horizon-December-2021-promo.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-edit {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.0rem);
+    padding-left: var(--bs-gutter-x,.0rem);
+    padding-top: var(--bs-gutter-x,.0rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.bg88 {
+    background-image: url("nero.gif");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgg {
+    background-image: url("bg-nero.gif");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgh {
+    background-image: url("../pic/BG.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.BACK {
+    background-color: #070707;
+    filter: blur(0px);
+    padding-right: var(--bs-gutter-x,.rem);
+    padding-left: var(--bs-gutter-x,.rem);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    border: 12px solid rgba(255, 255, 255, 0);
+    border-radius: -1.25rem;
+}
+
+.BACK-home {
+    background-color: #171111;
+    padding-right: var(--bs-gutter-x,.rem);
+    padding-left: var(--bs-gutter-x,.rem);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.BACK-white {
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.BACK-BLACK {
+    background-color: #070707;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.BACK-indigo {
+    background-color: #1dcbbd;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.BACK-pink {
+    background-color: #D70C3E;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.BACK-green {
+    background-color: #1dcbbd;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.BACK-green2 {
+    background-color: #ffffff00;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    backdrop-filter: invert(0%);
+    backdrop-filter: blur(10px);
+}
+.White {
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    border: 12px solid rgba(255, 255, 255, 0);
+    border-radius: .55rem;
+}
+
+.card {
+    background-color: #000000c4;
+    background-size: cover;
+    filter: blur(0px);
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: rgb(250, 250, 250);
+    border: 10px solid rgba(255, 255, 255, 0);
+    border-radius: .75rem;
+}
+
+.bg-home {
+    background-image: url("../pic/back.webp")
+}
+
+.card-home {
+    background-color: #ff00445b;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    border: 10px solid rgba(255, 255, 255, 0);
+    border-radius: .75rem;
+}
+
+.card-log {
+    background-color: #00000070;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: rgb(250, 250, 250);
+    border: 50px solid rgba(255, 255, 255, 0);
+    border-radius: .75rem;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    margin-top: 50px;
+    align-items:center;
+    backdrop-filter: blur(5px);
+}
+
+.card-wh {
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: rgb(250, 250, 250);
+    border: 50px solid rgba(255, 255, 255, 0);
+    border-radius: .75rem;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    margin-top: 50px;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+.card-wh1 {
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: rgb(250, 250, 250);
+    border: 50px solid rgba(255, 255, 255, 0);
+    border-radius: .75rem;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    overflow: scroll;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.img-thumbnail1 {
+    padding: 0rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #00000000;
+    border-radius: 0.75rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-edit {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 1.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #1dcbbd;
+    border-color: #343a406b;
+    border-radius: 10.25rem;
+}
+
+.btn-light-1 {
+    color: #D70C3E;
+    background-color: #ffffff;
+    border-color: #343a4000;
+    border-radius: 10.25rem;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+    border-radius: 10.25rem;
+}
+.btn-dark-2 {
+    color: #fff;
+    background-color: #1dcbbd;
+    border-color: #343a4000;
+    border-radius: 10.25rem;
+    padding: 0.5rem 9.0rem;
+}
+
+.btn-dark-1 {
+    color: #fff;
+    background-color: #11110D;
+    border-color: #343a4000;
+    border-radius: 10.25rem;
+    padding: 0.5rem 9.4rem;
+}
+
+.btn-secondary-1 {
+    color: #fff;
+    background-color: #D70C3E;
+    border-color: #343a4000;
+    border-radius: 10.25rem;
+    padding: 0.5rem 3rem;
+}
+
+.btn-outline-light {
+    color: #D70C3E;
+    border-color: #f8f9fa;
+    border-radius: 1.25rem;
+}
+
+.wh {
+    color: #FFFFFF;
+}
+
+.indigo {
+    color: #FFFFFF;
+    text-shadow: 0 0px 20px rgb(0 0 0 / 23%);
+    backdrop-filter: invert(100%);
+}
+
+.pink {
+    color: #D70C3E;
+}
+
+.fix-margin {
+    margin-top: 80px;
+}
+/*navbar*/
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.fixed-position {
+    position: fixed;
+}
+
+.img-home {
+    padding: 0rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px solid #dee2e6;
+    border-radius: 0rem;
+    max-width: 104%;
+    height: auto;
+}
+
+.img-banner {
+    padding: 0rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0px solid #dee2e600;
+    border-radius: 0.55rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 0.9;
+}
+
+.btn-3:hover::after {
+    width: 100%;
+}
+
+.btn-3::after {
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+    width: 10%;
+    height: 5px;
+    background: #D70C3E;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.25s ease;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btn-1 {
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: relative;
+    margin: 20px;
+    transition: all 0.25s ease;
+}
+
+.btn-2:hover::after {
+    transform: translate(-5px,-5px);
+}
+
+.btn-2:hover::before {
+    transform: translate(5px,5px);
+}
+
+.btn-2::after, .btn-2::before {
+    content: "";
+    border: 3px solid black;
+    position: absolute;
+    border-radius: 15px;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    left: 0;
+    bottom: 0;
+    transition: all 0.25s ease;
+}
+/*buttom-2*/
+.button-4,
+.button-4:after {
+    width: 50px;
+    height: 76px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(45deg, transparent 5%, #11110D 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 3px;
+    box-shadow: 6px 0px 0px #ffffff;
+    outline: transparent;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .button-4:after {
+        --slice-0: inset(50% 50% 50% 50%);
+        --slice-1: inset(80% -6px 0 0);
+        --slice-2: inset(50% -6px 30% 0);
+        --slice-3: inset(10% -6px 85% 0);
+        --slice-4: inset(40% -6px 43% 0);
+        --slice-5: inset(80% -6px 5% 0);
+        content: 'ALTERNATE TEXT';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #00ffd5 5%);
+        text-shadow: -3px -3px 0px #00fbff, 3px 3px 0px #00E6F6;
+        clip-path: var(--slice-0);
+    }
+
+    .button-4:hover:after {
+        animation: 1s glitch;
+        animation-timing-function: steps(2, end);
+    }
+
+@keyframes glitch {
+    0% {
+        clip-path: var(--slice-1);
+        transform: translate(-20px, -10px);
+    }
+
+    10% {
+        clip-path: var(--slice-3);
+        transform: translate(10px, 10px);
+    }
+
+    20% {
+        clip-path: var(--slice-1);
+        transform: translate(-10px, 10px);
+    }
+
+    30% {
+        clip-path: var(--slice-3);
+        transform: translate(0px, 5px);
+    }
+
+    40% {
+        clip-path: var(--slice-2);
+        transform: translate(-5px, 0px);
+    }
+
+    50% {
+        clip-path: var(--slice-3);
+        transform: translate(5px, 0px);
+    }
+
+    60% {
+        clip-path: var(--slice-4);
+        transform: translate(5px, 10px);
+    }
+
+    70% {
+        clip-path: var(--slice-2);
+        transform: translate(-10px, 10px);
+    }
+
+    80% {
+        clip-path: var(--slice-5);
+        transform: translate(20px, -10px);
+    }
+
+    90% {
+        clip-path: var(--slice-1);
+        transform: translate(-10px, 0px);
+    }
+
+    100% {
+        clip-path: var(--slice-1);
+        transform: translate(0);
+    }
+}
+
+@media (min-width: 768px) {
+    .button-4,
+    .button-4:after {
+        width: 226px;
+        height: 43px;
+        line-height: 35px;
+    }
+}
+/*
+button
+
+
+*/
+.button-5,
+.button-5:after {
+    width: 50px;
+    height: 76px;
+    line-height: 78px;
+    font-size: 20px;
+    font-family: 'Prompt-Regular', sans-serif;
+    background: linear-gradient(45deg, transparent 5%, #ffffff 5%);
+    border: 0;
+    color: rgb(255, 0, 72);
+    letter-spacing: 3px;
+    box-shadow: 6px 0px 0px #ff0055;
+    outline: transparent;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+    .button-5:after {
+        --slice-0: inset(50% 50% 50% 50%);
+        --slice-1: inset(80% -6px 0 0);
+        --slice-2: inset(50% -6px 30% 0);
+        --slice-3: inset(10% -6px 85% 0);
+        --slice-4: inset(40% -6px 43% 0);
+        --slice-5: inset(80% -6px 5% 0);
+        content: 'ALTERNATE TEXT';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+        text-shadow: -3px -3px 0px #00fbff, 3px 3px 0px #00E6F6;
+        clip-path: var(--slice-0);
+    }
+
+    .button-5:hover:after {
+        animation: 1s glitch;
+        animation-timing-function: steps(2, end);
+    }
+
+@keyframes glitch {
+    0% {
+        clip-path: var(--slice-1);
+        transform: translate(-20px, -10px);
+    }
+
+    10% {
+        clip-path: var(--slice-3);
+        transform: translate(10px, 10px);
+    }
+
+    20% {
+        clip-path: var(--slice-1);
+        transform: translate(-10px, 10px);
+    }
+
+    30% {
+        clip-path: var(--slice-3);
+        transform: translate(0px, 5px);
+    }
+
+    40% {
+        clip-path: var(--slice-2);
+        transform: translate(-5px, 0px);
+    }
+
+    50% {
+        clip-path: var(--slice-3);
+        transform: translate(5px, 0px);
+    }
+
+    60% {
+        clip-path: var(--slice-4);
+        transform: translate(5px, 10px);
+    }
+
+    70% {
+        clip-path: var(--slice-2);
+        transform: translate(-10px, 10px);
+    }
+
+    80% {
+        clip-path: var(--slice-5);
+        transform: translate(20px, -10px);
+    }
+
+    90% {
+        clip-path: var(--slice-1);
+        transform: translate(-10px, 0px);
+    }
+
+    100% {
+        clip-path: var(--slice-1);
+        transform: translate(0);
+    }
+}
+
+@media (min-width: 768px) {
+    .button-5,
+    .button-5:after {
+        width: 240px;
+        height: 40px;
+        line-height: 31px;
+    }
+}
+/*card*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+    .container-1 .card-5 {
+        position: relative;
+        min-width: 320px;
+        height: 526px;
+        box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px #ff013c52, -5px -5px 15px #ff809e52;
+        border-radius: 15px;
+        margin: 3px;
+        transition: 0.5s;
+    }
+
+        .container-1 .card-5 .box {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            background-image: url("https://cms.kerrang.com/images/Bring-Me-The-Horizon-December-2021-promo.jpg");
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            transition: 0.75s;
+        }
+
+            .container-1 .card-5 .box:hover {
+                transform: translateY(-60px);
+            }
+
+            .container-1 .card-5 .box:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 50%;
+                height: 100%;
+                background: rgba(255, 255, 255, 0.03);
+            }
+
+            .container-1 .card-5 .box .content {
+                padding: 20px;
+                text-align: center;
+            }
+
+                .container-1 .card-5 .box .content h2 {
+                    position: absolute;
+                    top: -10px;
+                    right: 30px;
+                    font-size: 8rem;
+                    color: rgba(255, 0, 55, 0.071);
+                }
+
+                .container-1 .card-5 .box .content h3 {
+                    font-size: 1.8rem;
+                    color: #fff;
+                    z-index: 1;
+                    transition: 0.5s;
+                    margin-bottom: 15px;
+                }
+
+                .container-1 .card-5 .box .content p {
+                    font-size: 1rem;
+                    line-height: 8px;
+                    font-weight: 300;
+                    color: rgba(255, 255, 255, 0.9);
+                    z-index: 1;
+                    transition: 0.5s;
+                }
+
+                .container-1 .card-5 .box .content a {
+                    position: relative;
+                    display: inline-block;
+                    padding: 8px 20px;
+                    background: black;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    color: white;
+                    margin-top: 20px;
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                    transition: 0.5s;
+                }
+
+                    .container-1 .card-5 .box .content a:hover {
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+                        background: #fff;
+                        color: #000;
+                    }
+/*card-2
+1
+1
+1
+1
+1*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+.container-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+    .container-5 .card-6 {
+        position: relative;
+        min-width: 320px;
+        height: 624px;
+        box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2), inset -5px -5px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px #ff013c52, -5px -5px 15px #ff809e52;
+        border-radius: 15px;
+        margin: 3px;
+        transition: 0.5s;
+    }
+
+        .container-5 .card-6 .box {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            bottom: 20px;
+            background-image: url("https://cms.kerrang.com/images/Bring-Me-The-Horizon-December-2021-promo.jpg");
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            transition: 0.75s;
+        }
+
+            .container-5 .card-6 .box:hover {
+                transform: translateY(-60px);
+            }
+
+            .container-5 .card-6 .box:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 50%;
+                height: 100%;
+                background: rgba(255, 255, 255, 0.03);
+            }
+
+            .container-5 .card-6 .box .content {
+                padding: 20px;
+                text-align: center;
+            }
+
+                .container-5 .card-6 .box .content h2 {
+                    position: absolute;
+                    top: -10px;
+                    right: 30px;
+                    font-size: 8rem;
+                    color: rgba(0, 0, 0, 0.533);
+                }
+
+                .container-5 .card-6 .box .content h3 {
+                    font-size: 1.8rem;
+                    color: #fff;
+                    z-index: 1;
+                    transition: 0.5s;
+                    margin-bottom: 15px;
+                }
+
+                .container-5 .card-6 .box .content p {
+                    font-size: 1rem;
+                    line-height: 8px;
+                    font-weight: 300;
+                    color: rgba(255, 255, 255, 0.9);
+                    z-index: 1;
+                    transition: 0.5s;
+                }
+
+                .container-5 .card-6 .box .content a {
+                    position: relative;
+                    display: inline-block;
+                    padding: 8px 20px;
+                    background: black;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    color: white;
+                    margin-top: 20px;
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                    transition: 0.5s;
+                }
+
+                    .container-5 .card-6 .box .content a:hover {
+                        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+                        background: #fff;
+                        color: #000;
+                    }
+
+.topnav-right {
+    float: right;
+}

@@ -1,0 +1,65 @@
+﻿@page
+@model LeviathanAuctionHouse.Pages.LoginModel
+@{
+}
+<head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#loginbutton").click(function () { login(); });
+        });
+
+        function login() {
+            var uname = $("#uname").val();
+            var psw = $("#psw").val();
+            $.ajax({
+                url: "./loginactions",
+                method: "POST",
+                headers: { "RequestVerificationToken": $('input[name="__RequestVerificationToken"]').val() },
+                data: {
+                    action: "login",
+                    uname: uname,
+                    psw: psw,
+                },
+                success: function (data) {
+                    alert(data);
+                    if (data.trim() == "Login success") {
+                        window.location.replace("./welcome");
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) { alert(thrownError); }
+            });
+        }
+
+
+
+    </script>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<form>
+    @Html.AntiForgeryToken()
+    <div class="container-edit">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col"> </div>
+                <div class="animate__animated animate__slideInDown col card-log backdrop-blur-md">
+               
+                    <h2 class="wh"> LOGIN </h2>
+                    <label class="" for="uname"><b>Username</b></label><br />
+                    <input type="text" placeholder="Enter Username" name="uname" id="uname" required class="form-control">
+                    <br>
+                    <label class="" for="psw"><b>Password</b></label><br />
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required class="form-control">
+                    <br>
+                    <button class="btn btn-dark-2" type="button" id="loginbutton">L O G I N</button>
+                    <a class="btn btn-dark-1 mt-2" type="button" asp-area="" asp-page="/Index">B A C K</a>
+                </div>
+                <div class="col"> </div>
+            </div>
+        </div>
+    </div>
+
+</form>

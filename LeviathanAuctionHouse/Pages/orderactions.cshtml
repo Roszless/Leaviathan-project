@@ -1,0 +1,159 @@
+﻿@page
+@model LeviathanAuctionHouse.Pages.orderactionsModel
+@using MySql.Data.MySqlClient;
+@using System.Data;
+@using Newtonsoft.Json;
+
+@{
+    Layout = null;
+    var action = Request.Query["action"];
+    var result = "ajax error";
+
+    MySqlConnection conn;
+    string server = "localhost";
+    string database = "leviathanauction";
+    string uid = "root";
+    string password = "12345678";
+    string connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+    database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";SSL Mode=None;";
+    conn = new MySqlConnection(connectionString);
+
+    try
+    {
+        conn.Open();
+    }
+    catch (Exception)
+    {
+        @Html.Raw("มีปัญหาการเชื่อมต่อฐานข้อมูล")
+        return;
+    }
+
+    if (action == "select")
+    {
+        var query = Request.Query["query"];
+
+        string sqlCmd = " SELECT orders.OrderID, orders.CustomerID, customers.CustomerName, orders.ProductID, orders.Quantity, orders.Total, orders.Payment "
+
+                      + " FROM orders "
+
+                      + " INNER JOIN customers "
+                      + " ON customers.CustomerID = orders.CustomerID"
+
+                      + " WHERE orders.OrderID LIKE @p1 "
+                      + " OR orders.ProductID LIKE @p1"
+                      + " OR orders.CustomerID LIKE @p1"
+                      + " OR orders.Quantity LIKE @p1"
+                      + " OR orders.Total LIKE @p1"
+                      + " OR orders.Payment LIKE @p1"
+
+                      + " OR customers.CustomerName LIKE @p1";
+
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", "%" + query + "%");
+        MySqlDataReader reader = cmd.ExecuteReader(); //SQL
+
+        DataTable dt = new DataTable(); //C#
+        dt.Load(reader);
+
+        string json_string = JsonConvert.SerializeObject(dt); //JSON
+        result = json_string;
+
+    }
+    else if (action == "insert")
+    {
+        var order_id = Request.Query["order_id"];
+        var customer_id = Request.Query["customer_id"];
+        var product_id = Request.Query["product_id"];
+        var quantity = Request.Query["quantity"];
+        var total = Request.Query["total"];
+        var payment = Request.Query["payment"];
+
+        string sqlCmd = "INSERT INTO orders VALUES(@p1, @p2, @p3, @p4, @p5, @p6)";
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", order_id);
+        cmd.Parameters.AddWithValue("@p2", customer_id);
+        cmd.Parameters.AddWithValue("@p3", product_id);
+        cmd.Parameters.AddWithValue("@p4", quantity);
+        cmd.Parameters.AddWithValue("@p5", total);
+        cmd.Parameters.AddWithValue("@p6", payment);
+
+        cmd.ExecuteNonQuery();
+
+        //ทำการเพิ่มข้อมูลไปยังฐานข้อมูล
+        result = "ajax insert success" + " "
+               + order_id + " "
+               + customer_id + " "
+               + product_id + " "
+               + quantity + " "
+               + total + " "
+               + payment + " ";
+
+    }
+    else if (action == "delete")
+    {
+        var order_id = Request.Query["order_id"];
+        string sqlCmd = "DELETE FROM orders WHERE OrderID = @pid";
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@pid", order_id);
+        cmd.ExecuteNonQuery();
+
+        result = "ajax delete success";
+    }
+    else if (action == "update")
+    {
+        var order_id = Request.Query["order_id"];
+        var customer_id = Request.Query["customer_id"];
+        var product_id = Request.Query["product_id"];
+        var quantity = Request.Query["quantity"];
+        var total = Request.Query["total"];
+        var payment = Request.Query["payment"];
+
+        string sqlCmd = "UPDATE orders "
+                      + " SET CustomerID = @p2, "
+                      + " ProductID = @p3, "
+                      + " Quantity = @p4, "
+                      + " Total = @p5, "
+                      + " Payment = @p6 "
+                      + " WHERE OrderID = @p1";
+
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", order_id);
+        cmd.Parameters.AddWithValue("@p2", customer_id);
+        cmd.Parameters.AddWithValue("@p3", product_id);
+        cmd.Parameters.AddWithValue("@p4", quantity);
+        cmd.Parameters.AddWithValue("@p5", total);
+        cmd.Parameters.AddWithValue("@p6", payment);
+
+        cmd.ExecuteNonQuery();
+
+
+        //ทำการแก้ไขข้อมูลไปยังฐานข้อมูล
+        result = "ajax update success";
+
+    }
+    else if (action == "fetch_single")
+    {
+        //ทำการลบข้อมูลไปยังฐานข้อมูล
+        var query = Request.Query["query"];
+        //System.Diagnostics.Debug.WriteLine("XXXXD" + query); //เป็นการ debug ตัวแปรฝั่ง server
+        string sqlCmd = "SELECT * FROM orders "
+                      + " WHERE OrderID = @p1 ";
+
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", query);
+        MySqlDataReader reader = cmd.ExecuteReader();
+
+        DataTable dt = new DataTable();
+        dt.Load(reader);
+
+        string json_string = JsonConvert.SerializeObject(dt);
+        result = json_string;
+
+    }
+    else
+    {
+        result = "unknow action";
+    }
+}
+
+@Html.Raw(result)

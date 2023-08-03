@@ -1,0 +1,150 @@
+﻿@page
+@model LeviathanAuctionHouse.Pages.customeractionsModel
+@using MySql.Data.MySqlClient;
+@using System.Data;
+@using Newtonsoft.Json;
+
+@{
+    Layout = null;
+    var action = Request.Query["action"];
+    var result = "ajax error";
+
+    MySqlConnection conn;
+    string server = "localhost";
+    string database = "leviathanauction";
+    string uid = "root";
+    string password = "12345678";
+    string connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+    database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";SSL Mode=None;";
+    conn = new MySqlConnection(connectionString);
+
+    try
+    {
+        conn.Open();
+    }
+    catch (Exception)
+    {
+        @Html.Raw("มีปัญหาการเชื่อมต่อฐานข้อมูล")
+        return;
+    }
+
+    if (action == "select")
+    {
+        var query = Request.Query["query"];
+
+        string sqlCmd = " SELECT CustomerID, CustomerName, Phone, Address, City, PostalCode FROM customers"
+                      + " WHERE CustomerID LIKE @p1 "
+                      + "    OR CustomerName LIKE @p1 "
+                      + "    OR Phone LIKE @p1 "
+                      + "    OR Address LIKE @p1 "
+                      + "    OR City LIKE @p1 "
+                      + "    OR PostalCode LIKE @p1 ";
+
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", "%" + query + "%");
+        MySqlDataReader reader = cmd.ExecuteReader(); //SQL
+
+        DataTable dt = new DataTable(); //C#
+        dt.Load(reader);
+
+        string json_string = JsonConvert.SerializeObject(dt); //JSON
+        result = json_string;
+
+    }
+    else if (action == "insert")
+    {
+        var customer_id = Request.Query["customer_id"];
+        var customer_name = Request.Query["customer_name"];
+        var phone = Request.Query["phone"];
+        var address = Request.Query["address"];
+        var city = Request.Query["city"];
+        var postalcode = Request.Query["postalcode"];
+
+        string sqlCmd = "INSERT INTO customers VALUES(@p1, @p2, @p3, @p4, @p5, @p6)";
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", customer_id);
+        cmd.Parameters.AddWithValue("@p2", customer_name);
+        cmd.Parameters.AddWithValue("@p3", phone);
+        cmd.Parameters.AddWithValue("@p4", address);
+        cmd.Parameters.AddWithValue("@p5", city);
+        cmd.Parameters.AddWithValue("@p6", postalcode);
+
+        cmd.ExecuteNonQuery();
+
+        //ทำการเพิ่มข้อมูลไปยังฐานข้อมูล
+        result = "ajax insert success" + " "
+               + customer_id + " "
+               + customer_name + " "
+               + phone + " "
+               + address + " "
+               + city + " "
+               + postalcode + " ";
+
+    }
+    else if (action == "delete")
+    {
+        var customer_id = Request.Query["customer_id"];
+        string sqlCmd = "DELETE FROM customers WHERE CustomerID = @pid";
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@pid", customer_id);
+        cmd.ExecuteNonQuery();
+
+        result = "ajax delete success";
+    }
+    else if (action == "update")
+    {
+        var customer_id = Request.Query["customer_id"];
+        var customer_name = Request.Query["customer_name"];
+        var phone = Request.Query["phone"];
+        var address = Request.Query["address"];
+        var city = Request.Query["city"];
+        var postalcode = Request.Query["postalcode"];
+
+        string sqlCmd = "UPDATE customers "
+                      + " SET CustomerName = @p2, "
+                      + " Phone = @p3, "
+                      + " Address = @p4, "
+                      + " City = @p5, "
+                      + " PostalCode = @p6 "
+                      + " WHERE CustomerID = @p1";
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", customer_id);
+        cmd.Parameters.AddWithValue("@p2", customer_name);
+        cmd.Parameters.AddWithValue("@p3", phone);
+        cmd.Parameters.AddWithValue("@p4", address);
+        cmd.Parameters.AddWithValue("@p5", city);
+        cmd.Parameters.AddWithValue("@p6", postalcode);
+
+        cmd.ExecuteNonQuery();
+
+
+        //ทำการแก้ไขข้อมูลไปยังฐานข้อมูล
+        result = "ajax update success";
+
+    }
+    else if (action == "fetch_single")
+    {
+        //ทำการลบข้อมูลไปยังฐานข้อมูล
+        var query = Request.Query["query"];
+        //System.Diagnostics.Debug.WriteLine("XXXXD" + query); //เป็นการ debug ตัวแปรฝั่ง server
+        string sqlCmd = "SELECT * FROM customers "
+                      + " WHERE CustomerID = @p1 ";
+
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", query);
+        MySqlDataReader reader = cmd.ExecuteReader();
+
+        DataTable dt = new DataTable();
+        dt.Load(reader);
+
+        string json_string = JsonConvert.SerializeObject(dt);
+        result = json_string;
+
+    }
+    else
+    {
+        result = "unknow action";
+    }
+}
+
+@Html.Raw(result)

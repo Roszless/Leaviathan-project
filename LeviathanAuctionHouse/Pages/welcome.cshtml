@@ -1,0 +1,27 @@
+﻿@page
+@model LeviathanAuctionHouse.Pages.welcomeModel
+@{
+    if (HttpContext.Session.GetString("username") == null)
+    {
+        <script>alert("สำหรับ Admin กรุณา Login ด้วยครับ");</script>
+        <script>window.location.replace("./Login");</script>
+    }
+    var displayname = HttpContext.Session.GetString("displayname");
+
+}
+@Html.AntiForgeryToken()
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<div class="container-edit">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col"> </div>
+            <div class="text-center animate__animated animate__fadeIn col card-log backdrop-blur-md">
+                <h2 class="wh"> W E L C O M E! !!<br /> ยินดีต้อนรับ!!! <br /> คุณ @displayname </h2>
+                <a class="btn btn-dark-1 mt-2" type="button" asp-area="" asp-page="/Index"> O K </a>
+            </div>
+            <div class="col"> </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,328 @@
+﻿@page
+@model LeviathanAuctionHouse.Pages.productsuiModel
+@{
+}
+
+@{
+    if (HttpContext.Session.GetString("username") == null)
+    {
+        <script>alert("สำหรับ Admin กรุณา Login ด้วยครับ");</script>
+        <script>window.location.replace("./Login");</script>
+        return;
+    }
+    var displayname = HttpContext.Session.GetString("displayname");
+}
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+        $(document).ready(function () {
+			selectData("");//เริ่มโปรแกรมให้แสดง ตารางเลย ดังนั้น selectData("") ทำหน้าที่เป็นการ refresh ตาราง
+
+            //เพิ่ม event การกดปุ่มให้ ปุ่ม 3 ปุ่ม
+            $("#insert").click(function() { insertData(); });
+            $("#update").click(function() { updateData(); });
+            $("#delete").click(function() { deleteData($("#product_id").val()); });
+			$("#search").click(function() { selectData($("#query").val()); });
+
+			$("#product_file").change(function () {
+				readURL(this);
+			});
+
+			//อ่านว่าเพิ่ม event click .ให้กับ element ทุกตัวที่มีคลาสเป็น edit
+			$(document).on('click', '.edit', function () {
+				var id = $(this).attr("id");
+                fetchSingleData(id); 
+			 });
+
+			 //อ่านว่าเพิ่ม event click .ให้กับ element ทุกตัวที่มีคลาสเป็น delete
+			 $(document).on('click', '.delete', function () {
+				 var id = $(this).attr("id");
+				 var result = confirm("Want to delete this product id = " + id + " ?");
+                 if (result)deleteData(id);
+
+			 });
+		});
+
+		function readURL(input) {
+			if (input.files && input.files[0]) {
+				var reader = new FileReader();
+
+				reader.onload = function (e) {
+					$('#product_image').attr('src', e.target.result);
+				}
+
+				reader.readAsDataURL(input.files[0]);
+			}
+		}
+
+	  //แปลง json เป็น html table
+    function CreateTableFromJSON(json_data) {
+        if (json_data.length == 0) return "";
+
+        var col = [];
+        for (var key in json_data[0]) {
+                if (col.indexOf(key) === -1) {
+                    col.push(key);
+                }
+            }
+        // CREATE DYNAMIC TABLE.
+        var table = document.createElement("table");
+
+        // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+
+        var tr = table.insertRow(-1);                   // TABLE ROW.
+
+        for (var i = 0; i < col.length; i++) {
+            var th = document.createElement("th");      // TABLE HEADER.
+            th.innerHTML = col[i];
+            tr.appendChild(th);
+        }
+
+        var edit_header = document.createElement("th");      // TABLE HEADER.
+        edit_header.innerHTML = "แก้ไขข้อมูล";
+        tr.appendChild(edit_header);
+
+        var delete_header = document.createElement("th");      // TABLE HEADER.
+        delete_header.innerHTML = "ลบข้อมูล";
+        tr.appendChild(delete_header);
+
+
+        // ADD JSON DATA TO THE TABLE AS ROWS.
+        for (var i = 0; i < json_data.length; i++) {
+
+            tr = table.insertRow(-1);
+
+            for (var j = 0; j < col.length; j++) {
+                var tabCell = tr.insertCell(-1);
+				if(col[j]=="Image"){
+						tabCell.innerHTML = "<img width='100' height='100' src='data: image/png;base64,"
+						+ json_data[i][col[j]] + "'alt='No Image'/>";
+						}else{
+					tabCell.innerHTML = json_data[i][col[j]];
+				}
+                
+
+
+            }
+
+            var id = json_data[i][col[0]];
+            //เพิ่มปุ่ม edit
+            var tabCell = tr.insertCell(-1);
+				tabCell.innerHTML = '<button type="button" name="edit" class="btn btn-dark btn-xs edit" id="' + id + '">Edit</button>';
+            //เพิ่มปุ่ม delete
+            tabCell = tr.insertCell(-1);
+            tabCell.innerHTML = '<button type="button" name="delete" class="btn btn-dark btn-xs delete" id="' + id + '">Delete</button>';
+
+
+        }
+
+        return table;
+    }
+
+	function insertData() { 
+		    //เนื่องจากส่งไฟล์ต้องใช้แบบ POST และส่งไปพร้อมกับ FORM data
+			var formData = new FormData();
+			formData.append('action', "insert");
+			formData.append('product_id', $("#product_id").val());
+			formData.append('product_name', $("#product_name").val());
+			formData.append('unit', $("#unit").val());
+			formData.append('category_id', $("#category_id").val());
+			formData.append('price', $("#price").val());
+			formData.append('product_file', $('#product_file')[0].files[0]);
+			$.ajax({
+					url: "./productactions",
+					method: "POST",
+				headers: { "RequestVerificationToken": $('input[name="__RequestVerificationToken"]').val() },
+				data: formData,
+					enctype: 'multipart/form-data',
+				processData: false,
+				contentType: false,
+					success: function (data) { alert(data);  selectData(""); },
+					error: function (xhr, ajaxOptions, thrownError) {alert(thrownError);}
+				});
+	}
+
+	function updateData() {
+			//เนื่องจากส่งไฟล์ต้องใช้แบบ POST และส่งไปพร้อมกับ FORM data
+			var formData = new FormData();
+			formData.append('action', "update");
+			formData.append('product_id', $("#product_id").val());
+			formData.append('product_name', $("#product_name").val());
+			formData.append('unit', $("#unit").val());
+			formData.append('category_id', $("#category_id").val());
+			formData.append('price', $("#price").val());
+			formData.append('product_file', $('#product_file')[0].files[0]);
+
+
+			$.ajax({
+				url: "./productactions",
+				method: "POST",
+				headers: { "RequestVerificationToken": $('input[name="__RequestVerificationToken"]').val() },
+				data: formData,
+				enctype: 'multipart/form-data',
+				processData: false,
+				contentType: false,
+				success: function (data) { alert(data); selectData(""); },
+				error: function (xhr, ajaxOptions, thrownError) { alert(thrownError); }
+			});
+	}
+
+	function deleteData(productID) {
+			//ไม่จำเป็นต้องแก้แต่ทำให้ consistence กับ เมธอดอื่นๆ
+			var formData = new FormData();
+			formData.append('action', "delete");
+			formData.append('product_id', productID);
+		    $.ajax({
+				url: "./productactions",
+					method: "POST",
+					headers: { "RequestVerificationToken": $('input[name="__RequestVerificationToken"]').val() },
+					data: formData,
+					enctype: 'multipart/form-data',
+					processData: false,
+					contentType: false,
+					success: function (data) { alert(data);  selectData("");},
+					error: function (xhr, ajaxOptions, thrownError) {alert(thrownError);}
+				});
+	}
+	
+	function selectData(query) {
+			//ไม่จำเป็นต้องแก้แต่ทำให้ consistence กับ เมธอดอื่นๆ
+		var formData = new FormData();
+			formData.append('action', "select");
+			formData.append('query', query);
+
+        $.ajax({
+				url: "./productactions",
+					method: "POST",
+					headers: { "RequestVerificationToken": $('input[name="__RequestVerificationToken"]').val() },
+					data: formData,
+					enctype: 'multipart/form-data',
+					processData: false,
+					contentType: false,
+					dataType: "json",
+					success: function(data) { 
+				    var table = CreateTableFromJSON(data); //แปลง json เป็น html table
+					var divContainer = $("#result");
+					divContainer.addClass("table table-striped");
+                    divContainer.html(table);
+			   },
+					error: function (xhr, ajaxOptions, thrownError) {alert(thrownError);}
+				});
+	}
+	
+	function fetchSingleData(id) {
+			//ไม่จำเป็นต้องแก้แต่ทำให้ consistence กับ เมธอดอื่นๆ
+			var formData = new FormData();
+			formData.append('action', "fetch_single");
+			formData.append('query', id);
+			$.ajax({
+				url: "./productactions",
+				 method: "POST",
+					headers: { "RequestVerificationToken": $('input[name="__RequestVerificationToken"]').val() },
+					data: formData,
+					enctype: 'multipart/form-data',
+					processData: false,
+					contentType: false,
+					dataType: "json",
+					success: function (data) { 
+						console.log(data);
+                        if (data.lenth < 1) return;
+						//ดึงค่าจาก json เช่น data[0]["ProductID"])
+						//และใส่ค่าเข้าไปที่ html element : product_id
+						$("#product_id").val(data[0]["ProductID"]);
+						$("#product_name").val(data[0]["ProductName"]);
+						$("#unit").val(data[0]["Unit"]);
+						$("#category_id").val(data[0]["CategoryID"]);
+						$("#price").val(data[0]["Price"]);
+
+					    var image_base64string = "data:image/png;base64," + data[0]["Image"] ;
+					    $('#product_image').attr('src', image_base64string);
+					    $('#product_file').val('');
+
+					},
+					error: function (xhr, ajaxOptions, thrownError) {alert(thrownError);}
+				});
+	}
+
+	</script>
+</head>
+<form>
+	@Html.AntiForgeryToken()
+	<div class="bg-home">
+		 USER : @displayname
+	<div class="container card-log">
+		<h2 class="green"> PRODUCTS <div class="dropdown" style="float:right">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGE
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/shipperui">Shipper</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/productsui">Product</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/customerui">Customers</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/orderui">Orders</a>
+                            </li>
+                        </ul>
+                    </div> </h2>
+	<div class="form-group">
+    	<label>Product ID</label>
+    	<input type="text" name="product_id" id="product_id" class="form-control" />
+	</div>
+
+	<div class="form-group">
+    	<label>Product Name</label>
+    	<input type="text" name="product_name" id="product_name" class="form-control" />
+	</div>
+
+	<div class="form-group">
+    	<label>Category ID</label>
+    	<input type="text" name="category_id" id="category_id" class="form-control" />
+	</div>
+
+	<div class="form-group">
+    	<label>Unit</label>
+    	<input type="text" name="unit" id="unit" class="form-control" />
+	</div>
+
+	<div class="form-group">
+    	<label>Price</label>
+    	<input type="text" name="price" id="price" class="form-control" />
+	</div>
+
+	<br>
+	<div class="form-group">
+		<img id="product_image" name="product_image"  src="#" alt="your image" width="200" height="200"/><br>
+		<label for="myfile">รูปภาพของสินค้า:</label>
+		<input type="file" id="product_file" name="product_file" accept=".jpg, .png, .jpeg, .gif, .bmp, .tif, .tiff|image/*"><br><br>
+	</div>
+	<br>
+
+	<div class="form-group">
+    	<input type="button" id="insert" value="เพิ่ม" />
+		<input type="button" id="update" value="แก้ไข" />
+		<input type="button" id="delete" value="ลบ" />
+	</div>
+	<br>
+
+	<div class="form-group">
+		ค้นหาข้อมูลสินค้า: 
+		<input type="text" name="query" id="query" />
+		<input type="button" id="search" value="ค้นหา" />
+	</div>
+
+	  <div class="card-wh1 container text-center">
+                <div class=" row" id="result">
+                </div>
+      </div>
+	</div>
+	<br /><br />
+	</div>
+	
+</form>
+

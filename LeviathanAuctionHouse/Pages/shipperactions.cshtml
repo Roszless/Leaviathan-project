@@ -1,0 +1,151 @@
+﻿@page
+@model LeviathanAuctionHouse.Pages.shipperactionsModel
+@using MySql.Data.MySqlClient;
+@using System.Data;
+@using Newtonsoft.Json;
+
+@{
+    Layout = null;
+    var action = Request.Query["action"];
+    var result = "ajax error";
+
+    MySqlConnection conn;
+    string server = "localhost";
+    string database = "leviathanauction";
+    string uid = "root";
+    string password = "12345678";
+    string connectionString = "SERVER=" + server + ";" + "DATABASE=" +
+    database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";SSL Mode=None;";
+    conn = new MySqlConnection(connectionString);
+
+    try
+    {
+        conn.Open();
+    }
+    catch (Exception)
+    {
+        @Html.Raw("มีปัญหาการเชื่อมต่อฐานข้อมูล")
+        return;
+    }
+
+    if (action == "select")
+    {
+        var query = Request.Query["query"];
+
+        string sqlCmd = " SELECT shippers.ShipperID, shippers.Location, shippers.Onboard, shippers.Status, shippers.ShipperName, shippers.Phone FROM shippers"
+                      + " WHERE shippers.ShipperID LIKE @p1 "
+                      + "    OR shippers.Location LIKE @p1 "
+                      + "    OR shippers.Onboard LIKE @p1 "
+                      + "    OR shippers.Status LIKE @p1 "
+                      + "    OR shippers.ShipperName LIKE @p1 "
+                      + "    OR shippers.Phone LIKE @p1 ";
+
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", "%" + query + "%");
+        MySqlDataReader reader = cmd.ExecuteReader(); //SQL
+
+        DataTable dt = new DataTable(); //C#
+        dt.Load(reader);
+
+        string json_string = JsonConvert.SerializeObject(dt); //JSON
+        result = json_string;
+
+    }
+    else if (action == "insert")
+    {
+        var shippers_id = Request.Query["shippers_id"];
+        var location = Request.Query["location"];
+        var onboard = Request.Query["onboard"];
+        var status = Request.Query["status"];
+        var shipper_name = Request.Query["shipper_name"];
+        var phone = Request.Query["phone"];
+
+        string sqlCmd = "INSERT INTO shippers VALUES(@p1, @p2, @p3, @p4, @p5, @p6)";
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", shippers_id);
+        cmd.Parameters.AddWithValue("@p2", location);
+        cmd.Parameters.AddWithValue("@p3", onboard);
+        cmd.Parameters.AddWithValue("@p4", status);
+        cmd.Parameters.AddWithValue("@p5", shipper_name);
+        cmd.Parameters.AddWithValue("@p6", phone);
+
+        cmd.ExecuteNonQuery();
+
+        //ทำการเพิ่มข้อมูลไปยังฐานข้อมูล
+        result = "ajax insert success" + " "
+               + shippers_id + " "
+               + location + " "
+               + onboard + " "
+               + status + " "
+               + shipper_name + " "
+               + phone + " ";
+
+    }
+    else if (action == "delete")
+    {
+        var shippers_id = Request.Query["shippers_id"];
+        string sqlCmd = "DELETE FROM shippers WHERE ShipperID = @pid";
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@pid", shippers_id);
+        cmd.ExecuteNonQuery();
+
+        result = "ajax delete success";
+    }
+    else if (action == "update")
+    {
+        var shippers_id = Request.Query["shippers_id"];
+        var location = Request.Query["location"];
+        var onboard = Request.Query["onboard"];
+        var status = Request.Query["status"];
+        var shipper_name = Request.Query["shipper_name"];
+        var phone = Request.Query["phone"];
+
+        string sqlCmd = "UPDATE shippers "
+                      + " SET Location = @p2, "
+                      + " Onboard = @p3, "
+                      + " Status = @p4, "
+                      + " ShipperName = @p5, "
+                      + " Phone = @p6 "
+                      + " WHERE ShipperID = @p1";
+
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", shippers_id);
+        cmd.Parameters.AddWithValue("@p2", location);
+        cmd.Parameters.AddWithValue("@p3", onboard);
+        cmd.Parameters.AddWithValue("@p4", status);
+        cmd.Parameters.AddWithValue("@p5", shipper_name);
+        cmd.Parameters.AddWithValue("@p6", phone);
+
+        cmd.ExecuteNonQuery();
+
+
+        //ทำการแก้ไขข้อมูลไปยังฐานข้อมูล
+        result = "ajax update success";
+
+    }
+    else if (action == "fetch_single")
+    {
+        //ทำการลบข้อมูลไปยังฐานข้อมูล
+        var query = Request.Query["query"];
+        //System.Diagnostics.Debug.WriteLine("XXXXD" + query); //เป็นการ debug ตัวแปรฝั่ง server
+        string sqlCmd = "SELECT * FROM shippers "
+                      + " WHERE ShipperID = @p1 ";
+
+        MySqlCommand cmd = new MySqlCommand(sqlCmd, conn);
+        cmd.Parameters.AddWithValue("@p1", query);
+        MySqlDataReader reader = cmd.ExecuteReader();
+
+        DataTable dt = new DataTable();
+        dt.Load(reader);
+
+        string json_string = JsonConvert.SerializeObject(dt);
+        result = json_string;
+
+    }
+    else
+    {
+        result = "unknow action";
+    }
+}
+
+@Html.Raw(result)

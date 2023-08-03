@@ -1,0 +1,230 @@
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\appsettings.json
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.staticwebassets.runtime.json
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.exe
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.deps.json
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.runtimeconfig.json
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.pdb
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.AssemblyReference.cache
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.AssemblyInfoInputs.cache
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.AssemblyInfo.cs
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.CoreCompileInputs.cache
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.RazorAssemblyInfo.cache
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.RazorAssemblyInfo.cs
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\bundle\LeviathanAuctionHouse.styles.css
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\projectbundle\LeviathanAuctionHouse.bundle.scp.css
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.CopyComplete
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\refint\LeviathanAuctionHouse.dll
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.pdb
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.genruntimeconfig.cache
+C:\Users\DEVA'S PC\source\repos\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\ref\LeviathanAuctionHouse.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\appsettings.json
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.staticwebassets.runtime.json
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.exe
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.deps.json
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.runtimeconfig.json
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.pdb
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.AssemblyReference.cache
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.AssemblyInfoInputs.cache
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.AssemblyInfo.cs
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.CoreCompileInputs.cache
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.RazorAssemblyInfo.cache
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.RazorAssemblyInfo.cs
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\bundle\LeviathanAuctionHouse.styles.css
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\projectbundle\LeviathanAuctionHouse.bundle.scp.css
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.CopyComplete
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\refint\LeviathanAuctionHouse.dll
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.pdb
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.genruntimeconfig.cache
+C:\Users\Ballp\Desktop\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\ref\LeviathanAuctionHouse.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\appsettings.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.staticwebassets.runtime.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.exe
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.deps.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.runtimeconfig.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.pdb
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.AssemblyReference.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.AssemblyInfoInputs.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.AssemblyInfo.cs
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.CoreCompileInputs.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.RazorAssemblyInfo.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.RazorAssemblyInfo.cs
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\bundle\LeviathanAuctionHouse.styles.css
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\projectbundle\LeviathanAuctionHouse.bundle.scp.css
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.CopyComplete
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\refint\LeviathanAuctionHouse.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.pdb
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.genruntimeconfig.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\ref\LeviathanAuctionHouse.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\appsettings.json
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.staticwebassets.runtime.json
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.exe
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.deps.json
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.runtimeconfig.json
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.pdb
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.RazorAssemblyInfo.cache
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.RazorAssemblyInfo.cs
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\bundle\LeviathanAuctionHouse.styles.css
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\projectbundle\LeviathanAuctionHouse.bundle.scp.css
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.CopyComplete
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\refint\LeviathanAuctionHouse.dll
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.pdb
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.genruntimeconfig.cache
+C:\Users\USER\OneDrive\Documents\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\ref\LeviathanAuctionHouse.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\appsettings.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.staticwebassets.runtime.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.exe
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.deps.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.runtimeconfig.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\LeviathanAuctionHouse.pdb
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.AssemblyReference.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.AssemblyInfoInputs.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.AssemblyInfo.cs
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.CoreCompileInputs.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.RazorAssemblyInfo.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.RazorAssemblyInfo.cs
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\bundle\LeviathanAuctionHouse.styles.css
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\scopedcss\projectbundle\LeviathanAuctionHouse.bundle.scp.css
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.csproj.CopyComplete
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\refint\LeviathanAuctionHouse.dll
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.pdb
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\LeviathanAuctionHouse.genruntimeconfig.cache
+C:\Users\DEVA'S PC\Downloads\LeviathanAuctionHouse_3\LeviathanAuctionHouse_3\LeviathanAuctionHouse_2\LeviathanAuctionHouse\LeviathanAuctionHouse\obj\Debug\net6.0\ref\LeviathanAuctionHouse.dll

@@ -1,0 +1,34 @@
+﻿@page
+@model LeviathanAuctionHouse.Pages.logoutModel
+@{
+}
+
+@{
+    if (HttpContext.Session.GetString("username") == null)
+    {
+        <script>alert("ยังไม่ได้ Login");</script>
+        <script>window.location.replace("./Login");</script>
+
+    }
+    var displayname = HttpContext.Session.GetString("displayname");
+}
+
+@{
+    HttpContext.Session.Remove("username");
+    HttpContext.Session.Remove("displayname");
+}
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<div class="container-edit">
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col"> </div>
+            <div class="text-center animate__animated animate__fadeIn col card-log backdrop-blur-md">
+                <h2 class="wh"> Logout ให้คุณ <br /> @displayname เรียบร้อยแล้ว </h2>
+                <a class="btn btn-dark-1 mt-2" type="button" asp-area="" asp-page="/Index"> O K </a>
+            </div>
+            <div class="col"> </div>
+        </div>
+    </div>
+</div>
