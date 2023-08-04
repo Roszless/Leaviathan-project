@@ -6,4 +6,4 @@ So my task in this project is.
 2.SQL.
   I created table SQL for this project.
 3.Test.
-  I haved test every UI that to ensure it will worked perfectly.
+  I haved test every UI to ensure it worked perfectly.
